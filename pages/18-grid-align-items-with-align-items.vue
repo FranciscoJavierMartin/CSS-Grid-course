@@ -23,6 +23,8 @@ main {
   grid-template: repeat(4, 50px) / repeat(3, 1fr);
   /* Row axis */
   justify-items: stretch;
+  /* Column axis */
+  align-items: center;
 }
 
 main div {
