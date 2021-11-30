@@ -13,7 +13,7 @@
   </section>
 </template>
 
-<style>
+<style scoped>
 section {
   display: grid;
   grid-gap: 10px;

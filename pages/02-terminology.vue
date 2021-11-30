@@ -13,7 +13,7 @@
   </main>
 </template>
 
-<style>
+<style scoped>
 main {
   height: 100vh;
   display: grid;

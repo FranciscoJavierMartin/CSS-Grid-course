@@ -8,7 +8,7 @@
   </main>
 </template>
 
-<style lang="css">
+<style scoped>
 main > * {
   background-color: goldenrod;
   padding: 10px;

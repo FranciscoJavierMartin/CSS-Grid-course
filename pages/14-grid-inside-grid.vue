@@ -21,7 +21,7 @@
   </section>
 </template>
 
-<style>
+<style scoped>
 #grid-1 {
   display: grid;
   height: 100vh;

@@ -15,7 +15,7 @@
   </main>
 </template>
 
-<style>
+<style scoped>
 main {
   display: grid;
   grid-gap: 10px;
