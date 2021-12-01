@@ -2,9 +2,13 @@
   <main>
     <h1>CSS Grid course</h1>
     <div class="grid">
-      <div class="lesson" v-for="(lesson, index) in links" :key="index">
-        <nuxt-link :to="lesson.link">{{ lesson.text }}</nuxt-link>
-      </div>
+      <nuxt-link
+        :to="lesson.link"
+        v-for="(lesson, index) in links"
+        :key="index"
+        class="lesson"
+        >{{ lesson.text }}</nuxt-link
+      >
     </div>
   </main>
 </template>
@@ -125,6 +129,8 @@ h1 {
   margin: 10px;
   border-radius: 20px;
   font-size: 20px;
+  text-decoration: none;
+  color: white;
 }
 
 @media (min-width: 576px) {
@@ -141,10 +147,5 @@ h1 {
 
 .lesson:hover {
   background-color: purple;
-}
-
-a {
-  text-decoration: none;
-  color: white;
 }
 </style>
