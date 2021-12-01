@@ -110,7 +110,7 @@ h1 {
 
 .grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: 1fr;
   justify-items: stretch;
   align-items: stretch;
 }
@@ -125,6 +125,18 @@ h1 {
   margin: 10px;
   border-radius: 20px;
   font-size: 20px;
+}
+
+@media (min-width: 576px) {
+  .grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 768px) {
+  .grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
 }
 
 .lesson:hover {
